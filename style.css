@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #6193e3;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	width: 400px;
+	margin: 50px auto;
+}
+
+.logo {
+	height: 35px;
+	width: auto;
+	margin: 0 auto 30px auto;
+	display: block;
+}
+
+.signup-form {
+	background-color: white;
+	padding: 0 40px;
+	border-radius: 3px;
+}
+
+.signup-form legend {
+	margin: 0 auto;
+	padding: 40px;
+	color: #606163;
+	font-size: 35px;
+}
+
+.signup-form label, .signup-form input {
+	display: block;
+}
+
+.signup-form label {
+	margin-bottom: 20px;
+}
+
+.signup-form input, .signup-form button {
+	width: 320px;
+	height: 55px;
+	border: 2px solid;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+.signup-form input {
+	border-color: #e8e8e8;
+}
+
+input[type='email'], input[type='password'] {
+	padding: 10px;
+	font-size: 16px;
+}
+
+.signup-form::placeholder {
+	font-size: 20px;
+}
+
+.signup-form button {
+	background-color: #88c375;
+	border: 0;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.signup-form button:hover {
+	background-color: #4caf50;
+}
+
+.signup-form .forgot-password {
+	display: block;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.signup-form a {
+	color: #aeaca5;
+	font-size: 14px;
+}
+
+.signup-form a {
+	color: #aeaca5;
+	font-size: 14px;
+}
+
+.account {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.account a {
+	color: white;
+}
